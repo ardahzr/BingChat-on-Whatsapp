@@ -8,7 +8,7 @@ import os
 import asyncio
 from sydney import SydneyClient
 import emoji
-os.environ["BING_U_COOKIE"]="1I1MDR_bVj9QxhIIJU5HowZOsYtzCvkOMcdwsRstJzpXkxzjpjjEd29O0NioO0fzAvSH0uTQGuFoIj3b8WBgppXhB_ds8EwWARjhbc0nk01UBV1EYhlWsi64-0odyf3LNKUfNz9tF6MyXrntBIF-AErX--3P_AsCV5buyC4R0IrS7Iw_fPRTiqhBR-w1GWe_sIDhGZ4fgupstGYnvNLSgqplclDJ9zNbnPmsSWuAjoho"
+os.environ["BING_U_COOKIE"]="<your_bing_cookie>"
 
 async def main() -> None:
     async with SydneyClient() as sydney:
